@@ -23,7 +23,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Hero Section
-st.image("assets/banner_hero.png", use_container_width=True)
+st.image("assets/banner_topo.png", use_container_width=True)
 
 # Sidebar
 st.sidebar.header("⚙️ 1. Configure sua Operação")
@@ -75,4 +75,5 @@ if botao_calcular:
             st.plotly_chart(fig2, use_container_width=True)
 
 else:
+
     st.info("👈 Siga a seta na imagem: configure os parâmetros na barra lateral para iniciar.")
